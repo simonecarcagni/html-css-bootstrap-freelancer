@@ -1,29 +1,44 @@
-.debug header{
-    background-color: red;
+:root {
+    --ms-background-green: #1abc9c;
+    --ms-background-blue: #2c3e50;
+    --ms-background-lightblue: #3a546d;
 }
 
-.debug .rounded{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
+html{
+    font-family: sans-serif;
 }
 
-.debug .section-first, .debug .section-third{
-    background-color: green;
+.dash{
+    width: 15%;
+    height: 5px;
+    border-radius: 30px;
 }
 
-.debug footer .box{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.ms_bg_green{
+    background-color: var(--ms-background-green);
 }
 
-.debug footer{
-    background-color: darkblue;
+.ms_bg_blue{
+    background-color: var(--ms-background-blue);
 }
 
-.debug .footer-copyright{
-    background-color: black;
+.ms_bg_lightblue{
+    background-color: var(--ms-background-lightblue);
 }
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.ms_border_icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+.ms_bg_blue span{
+    font-size: 12px;
+}
+
 

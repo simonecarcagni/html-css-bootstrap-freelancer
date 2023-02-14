@@ -7,32 +7,33 @@
         <title>Layout Bootstrap</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body class="debug">
         
-        <header>
+        <header class="ms_bg_blue"> 
 
             <div class="container">
             
-                <nav class="navbar navbar-expand-md bg-body-tertiary bg-body-red">
+                <nav class="navbar navbar-expand-md " style="background-color: #2c3e50;">
             
-                    <a class="navbar-brand BG" href="#">START BOOTSTRAP</a>
+                    <a class="navbar-brand BG text-white fw-bold" href="#">START BOOTSTRAP</a>
             
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon text-light"></span>
                     </button>
             
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-white fw-bold" href="portfolio">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link text-white fw-bold" href="about">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
+                                <a class="nav-link text-white fw-bold" href="contact">CONTACT</a>
                             </li>
                         </ul>
             
@@ -47,63 +48,72 @@
 
         <main>
 
-            <section class="section-first p-5">
+            <section class="section-first ms_bg_green p-5">
 
                 <div class="container">
-                    <div class="text-center">
-                        <img src="..." class="rounded my-3" alt="image placeholder">
+                    <div class="row">
+                        <div class="col-3 m-auto">
+                            <img src="./img/avatar.svg" class="rounded my-3" alt="Jumbo-image">
+                        </div>
                     </div>
-                    
-                    <div class="col-8 m-auto">
+                    <div class="col-10 m-auto">
                         <div class="row flex-column align-items-center">
-                            <span class="col-6 my-3 text-center">TITLE</span>
-                            <span class="col-4 my-3 text-center">SPACE STAR</span>
-                            <span class="col-6 my-3 text-center">UNDERTITLE</span>
+                            <span class="col-12 text-center text-white fw-bold fs-1">START BOOTSTRAP</span>
+                            <span class="col-12 my-3 text-center text-white fs-1 d-flex align-items-center justify-content-center">
+                                <div class="dash bg-light mx-2"></div>
+                                <i class="fa-solid fa-star"></i>
+                                <div class="dash bg-light mx-2"></div>
+                            </span>
+                            <span class="col-12 text-center text-white fw-bold fs-4">GRAPHIC - WEB DESIGNER - ILLUSTRATOR</span>
                         </div>
                     </div>
                 </div>
 
             </section>
 
-            <section class="section-second py-5">
+            <section name="portfolio" id="portfolio" class="section-second py-5">
 
                 <div class="container">
                     
                     <div class="row flex-column align-items-center">
-                        <span class="col-6 my-3 text-center">TITLE</span>
-                        <span class="col-4 my-3 text-center">SPACE STAR</span>
+                        <span class="col-6 my-3 text-center fs-2 fw-bold">PORTFOLIO</span>
+                        <span class="col-12 my-3 text-center fs-1 d-flex align-items-center justify-content-center">
+                            <div class="dash bg-black mx-2"></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="dash bg-black mx-2"></div>
+                        </span>
                     </div>
                    
                     <div class="text-center my-3">
                         <div class="row g-3">
                             <div class=" col-12 col-md-6  col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/cabin.png" class="rounded" alt="Cottage">
                                 </div>
                             </div>
                             <div class=" col-12 col-md-6 col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/cake.png" class="rounded" alt="Cake">
                                 </div>
                             </div>
                             <div class=" col-12 col-md-6 col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/circus.png" class="rounded" alt="Circus">
                                 </div>
                             </div>
                             <div class=" col-12 col-md-6 col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/game.png" class="rounded" alt="Game">
                                 </div>
                             </div>
                             <div class=" col-12 col-md-6 col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/safe.png" class="rounded" alt="Safe">
                                 </div>
                             </div>
                             <div class=" col-12 col-md-6 col-lg-4">
-                                <div class="text-center mt-2">
-                                    <img src="image placeholder" class="rounded" alt="image placeholder">
+                                <div class="text-center">
+                                    <img src="./img/submarine.png" class="rounded" alt="Submarine">
                                 </div>
                             </div>
                         </div>
@@ -111,31 +121,31 @@
                 </div>
             </section>
 
-            <section class="section-third py-5">
+            <section class="section-third ms_bg_green py-5">
 
                 <div class="container">
                     
                     <div class="row flex-column align-items-center">
-                        <span class="col-6 my-3 text-center">TITLE</span>
-                        <span class="col-4 my-3 text-center">SPACE STAR</span>
+                        <span class="col-6 my-3 text-center fs-2 fw-bold text-white">ABOUT</span>
+                        <span class="col-12 my-3 text-center fs-1 text-white d-flex align-items-center justify-content-center">
+                            <div class="dash bg-light mx-2"></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="dash bg-light mx-2"></div>
+                        </span>
                     </div>
                     
                     
                     <div class="d-flex flex-wrap justify-content-center">
 
                         <div class="row g-3">
-                            <div class="text-third col-8 offset-2 col-md-5 offset-md-1 ">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, rem totam earum incidunt officia
-                                    quae iure, eligendi, facilis aliquam dolorem numquam blanditiis! Eveniet, officiis obcaecati? Ullam
-                                    consequuntur nemo consectetur nam?</p>
+                            <div class="text-third col-8 offset-2 col-md-5 offset-md-1 text-white">
+                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                             </div>
-                            <div class="text-third col-8 offset-2 col-md-5 offset-md-0">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, rem totam earum incidunt officia
-                                    quae iure, eligendi, facilis aliquam dolorem numquam blanditiis! Eveniet, officiis obcaecati? Ullam
-                                    consequuntur nemo consectetur nam?</p>
+                            <div class="text-third col-8 offset-2 col-md-5 offset-md-0 text-white">
+                                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting pointl</p>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-outline-light mb-3 mx-auto">Download</button>
+                        <button type="button" class="btn btn-outline-light mb-3 mx-auto"><i class="fa-solid fa-download me-1"></i>Download</button>
                     </div>
                     
                 </div>
@@ -147,47 +157,79 @@
                 <div class="container">
 
                     <div class="row flex-column align-items-center">
-                        <span class="col-6 my-3 text-center">TITLE</span>
-                        <span class="col-4 my-3 text-center">SPACE STAR</span>
+                        <span class="col-6 my-3 text-center fs-2 fw-bold">CONTACT ME</span>
+                        <span class="col-12 my-3 text-center fs-1 d-flex align-items-center justify-content-center">
+                            <div class="dash bg-black mx-2"></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="dash bg-black mx-2"></div>
+                        </span>
                     </div>
                     
                     <div class="col-8 mx-auto mb-3 col-md-10">
                     
-                        <ul class="list-group list-group-flush px-2">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item pb-5 pt-3">A fourth item</li>
-                            <li class="list-group-item">
-                                <input class="btn btn-primary" type="submit" value="Submit">
-                            </li>
-                        </ul>
+                        <form>
+                            <div>
+                                <input type="name" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="exampleInputName1" placeholder="Name">
+                            </div>
+                            <div>
+                                <input type="email" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="exampleInputEmail1" placeholder="Email Address">
+                            </div>
+                            <div>
+                                <input type="tel" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 " id="exampleInputNumber1" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-2">
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 pb-5 pt-2"  id="exampleInputText1" placeholder="Message">
+                            </div>
+                            <button type="submit" class="btn text-white" style="background-color: #1abc9c;">Send</button>
+                        </form>
                     
                     </div>
                 </div>
 
             </section>
 
-            <footer class="pt-5">
+            <footer class="ms_bg_lightblue">
                 
                 <div class="container">
 
-                    <div class="footer-container d-flex pb-4 pt-4">
-                        <div class="col-12 col-md-4 ">
-                            <div class="box m-auto"></div>
+                    <div class="footer-container d-flex flex-wrap pt-5">
+                        <div class="col-12 col-md-4 mb-5">
+                            <div class="m-auto text-white text-center">
+                                <h6>LOCATION</h6>
+                                <span>2215 John Daniel Drive Clark, MO 54243</span> 
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="box m-auto"></div>
+                        <div class="col-12 col-md-4 mb-5">
+                            <div class="m-auto text-white text-center">
+                                <h6>AROUND THE WEB</h6>
+                                <div class="row justify-content-center">
+                                    <div class="ms_border_icon border rounded-circle mx-2 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-facebook-f fs-3"></i>
+                                    </div>
+                                    <div class="ms_border_icon border rounded-circle mx-2 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-google-plus-g fs-3 "></i>
+                                    </div>
+                                    <div class="ms_border_icon border rounded-circle mx-2 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-twitter fs-3"></i>
+                                    </div>
+                                    <div class="ms_border_icon border rounded-circle mx-2 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-linkedin-in fs-3"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="box m-auto"></div>
+                        <div class="col-12 col-md-4 mb-5">
+                            <div class="m-auto text-white text-center">
+                                <h6>ABOUT FREELANCER</h6>
+                                <span>Freelance is a free to use, open source Bootstrap theme created by <span style="color: #1abc9c">Start Bootstrap.</span></span>
+                            </div>
                         </div>
                     </div>
                     
                 </div>
 
-                <div class="footer-copyright d-flex flex-column align-items-center">
-                    <span class="col-6 my-3 text-center text-white">TITLE</span>
+                <div class="ms_bg_blue d-flex flex-column align-items-center py-3">
+                    <span class="col-6 my-3 text-center text-white">Copyright © Your Website 2019</span>
                 </div>
 
             </footer>
