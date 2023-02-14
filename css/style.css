@@ -13,9 +13,10 @@
     background-color: green;
 }
 
-.debug footer .col-12{
+.debug footer .box{
     background-color: red;
     height: 200px;
+    width: 200px;
 }
 
 .debug footer{
@@ -26,28 +27,3 @@
     background-color: black;
 }
 
-@media all and (min-width: 992px) {
-    .image-grid{
-        width: 50%;
-    }
-
-    .text-third{
-        width: 50%;
-    }
-
-    .footer-text{
-        width: calc(100% / 4);
-        margin: auto;
-    }
-    
-    footer .footer-container{
-        display: flex;
-        padding: 0;
-    }
-}
-
-@media all and (min-width: 1400px) {
-    .image-grid{
-        width: calc(100% / 3);
-    }
-}
